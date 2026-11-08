@@ -1,0 +1,257 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container {
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid black;
+    max-width: 1100px;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+    background-color: white;
+}
+
+.main-nav .logo{
+    width: 110px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav .main-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.main-nav li {
+    margin-right: 10px;
+}
+
+.main-nav a{
+    color: #262626;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav a:hover{
+    border-bottom: 2px solid black;
+}
+
+.showcase{
+    width: 100%;
+    height: 400px;
+    background: white url('../img/slide1.png') no-repeat center top;
+    background-size: 30%;
+    background-origin: content-box;
+    background-clip: content-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 50px 0;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.showcase h1, .showcase h2, .showcase p{
+    margin-bottom: 10px;
+}
+
+.showcase h2{
+    color: black;
+}
+
+.showcase p{
+    color: #333;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: #378ff5;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.dark{
+    color: white;
+}
+
+.dark .btn{
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+.sub-footer{
+    background-color: #d3eaac;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.home-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+    background-color: white;
+    width: auto;
+    border: none;
+}
+
+.home-cards img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home-cards h3{
+    margin-bottom: 5px;
+}
+
+.home-cards a{
+    color: #0067b8;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+    display: inline;
+}
+
+.home-cards a:hover i{
+    margin-left: 10px;
+}
+
+#bigData-intro {
+    height: 350px;
+    background: url('../img/bigData.png') no-repeat  center;
+    background-size: contain;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+    border: none;
+} 
+
+#bigData-intro .content{
+    width: 40%;
+    color: #262626;
+    padding: 50px 0 0 30px;
+}
+
+#bigData-intro .content p{
+    margin: 10px 0 20px;
+
+}
+
+.ruban{
+    width: 100%;
+    height: 350px;
+    background: url('../img/carbon2.jpg') no-repeat center;
+    background-size: 100% 100%;
+    background-position: center -30px;
+    border: none;
+}
+
+.ruban .content{
+    width: 55%;
+    color: white;
+    padding: 80px 0 0 30px;
+}
+
+.ruban .content p{
+    margin: 10px 0 20px;
+}
+
+.dark .btn{
+    background-color: #03254c;
+    color: white;
+}
+
+.follow{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+}
+
+.follow > * {
+    padding-right: 10px;
+}
+
+.follow span{
+    color: black;
+    font-size: 30px;
+}
+
+.links{
+    background-color: #f2f2f2;
+    color: #616161;
+    padding: 35px 0;
+    height: auto;
+    font-size: 12px;
+    border: none;
+}
+
+.links-inner{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+.links-inner li {
+    line-height: 2.8;
+    
+}
+
+.links-inner ul{
+    list-style: none;
+}
+
+.links-inner a{
+    color: #616161;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #cccccc;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+
